@@ -176,6 +176,7 @@ def normalize_and_clean_repositories_with_explicit_cleanup(
     """
     Normalize repositories and ensure explicit removal of all legacy attributes.
     """
+    print("eelketest")
     normalized_repos = []
     for repo in repo_data:
         # Normalize the repository

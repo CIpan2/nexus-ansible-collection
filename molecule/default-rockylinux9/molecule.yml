@@ -41,6 +41,8 @@ platforms:
 
 provisioner:
   name: ansible
+  env:
+    ANSIBLE_VERBOSITY: 3
   config_options:
     defaults:
       callbacks_enabled: timer, profile_roles, profile_tasks
