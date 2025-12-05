@@ -259,25 +259,6 @@ nexus_repos_cleanup_policies:
       lastBlobUpdated: 60
       lastDownloaded: 120
       regexKey: "beta-*"
-nexus_repos_maven_proxy:
-  - name: central-blob-default-permissive-http-authentication
-    remote_url: https://repo1.maven.org/maven2/
-    layout_policy: permissive
-    remote_username: admin
-    remote_password: admin123
-
-  - name: central-blob-default-permissive
-    remote_url: https://repo1.maven.org/maven2/
-    layout_policy: permissive
-
-  - name: jboss-api-blob-default
-    remote_url: https://repository.jboss.org/nexus/content/groups/public-jboss/
-
-  - name: jcenter-api-blob-default
-    remote_url: https://jcenter.bintray.com/
-
-  - name: jcenter-api
-    remote_url: https://jcenter.bintray.com/
 
 nexus_repos_maven_hosted:
   - name: private-release-cleanup-mvn-cleanup
